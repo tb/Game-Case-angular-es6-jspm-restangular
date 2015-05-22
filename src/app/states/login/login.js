@@ -38,7 +38,7 @@ export default angular
 
     $stateProvider.state('login.signup', {
       url: '/login/signup',
-      templateUrl: 'app/login/signup.tpl.html'
+      templateUrl: 'app/states/login/signup.tpl.html'
     });
   }])
   .controller('LoginController', LoginController);

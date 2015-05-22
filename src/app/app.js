@@ -13,7 +13,7 @@ app.config(routing(app));
 app.config(function ($urlRouterProvider, $locationProvider, $stateProvider, $httpProvider) {
   //$locationProvider.html5Mode(true);
   $httpProvider.useApplyAsync(true);
-  $urlRouterProvider.otherwise('/login');
+  $urlRouterProvider.otherwise('/');
 });
 
 angular.element(document).ready(function() {
