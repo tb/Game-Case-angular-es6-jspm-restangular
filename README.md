@@ -2,7 +2,7 @@ GAME CASE
 ========================================================================
 
 ## Description
-A video game showcase app written in Angular and ES6, compiled with Babel, and built 
+A video game showcase app written in Angular 1.x (for now!) and ES6, compiled with Babel, and built 
 with modules / dependencies managed by JSPM.
 
 Restangular will be used to consume data from the [Mashape Metacritic API](https://www.mashape.com/byroredux/metacritic-v2).
