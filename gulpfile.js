@@ -217,7 +217,7 @@ gulp.task('lint', function () {
         .pipe(jshint.reporter(stylish));
 });
 
-gulp.task('serve', ['recompile'], function (done) {
+gulp.task('serve', ['recompile', 'watch'], function (done) {
     browserSync({
         open: false,
         port: 9000,
@@ -225,13 +225,15 @@ gulp.task('serve', ['recompile'], function (done) {
             baseDir: ['.'],
             middleware: function (req, res, next) {
                 res.setHeader('Access-Control-Allow-Origin', '*');
+                res.setHeader('Access-Control-Allow-Headers', 'Content-Type, X-Requested-With');
+                res.setHeader('Access-Control-Allow-Methods',  'GET, POST', 'OPTIONS');
                 next();
             }
-        }
+        },
     }, done);
 });
 
-gulp.task('watch', ['serve'], function () {
+gulp.task('watch', function () {
     var watcher = gulp.watch([path.source, path.html, path.scss, path.themes], ['compile']);
     watcher.on('change', function (event) {
         console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');

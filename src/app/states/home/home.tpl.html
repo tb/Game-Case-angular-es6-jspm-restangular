@@ -1,0 +1,36 @@
+<section class="page-section_hero__home">
+
+    <!--
+    <div class="hero-wrapper">
+        <div class="hero-container">
+            <h1>Welcome to GameCase</h1>
+        </div>
+    </div>
+    -->
+
+</section>
+
+<section class="page-section_main-content">
+
+    <h2>Upcoming PS4 Releases</h2>
+    
+    <div class="item-list-container">
+        <ul>
+            <li data-ng-repeat="game in homeCtrl.upcomingReleases.ps4"
+                data-ng-bind-html="game.name">
+            </li>
+        </ul>
+    </div>
+
+
+    <h2>Upcoming Xbox One Releases</h2>
+
+    <div class="item-list-container">
+        <ul>
+            <li data-ng-repeat="game in homeCtrl.upcomingReleases.ps4"
+                data-ng-bind-html="game.name || 'Game Title'">
+            </li>
+        </ul>
+    </div>
+
+</section>

@@ -6,7 +6,7 @@ import BuilderTemplate from './builder.tpl';
 class BuilderController{
   /*@ngInject*/
   constructor($scope){
-    console.log('builder!')
+    console.log('builder!');
   }
 }
 

@@ -1,64 +1,29 @@
-# SystemJS + AngularJS
+GAME CASE
+========================================================================
 
-Seed project for ES6 modules via SystemJS with ES6 syntax using 6to5 that lazy-load and bundle build with AngularJS.
+## Description
+A video game showcase app written in Angular and ES6, compiled with Babel, and built 
+with modules / dependencies managed by JSPM.
 
-![](http://media.giphy.com/media/EldfH1VJdbrwY/giphy.gif)
+Restangular will be used to consume data from the [Mashape Metacritic API](https://www.mashape.com/byroredux/metacritic-v2).
+
+I made this app to explore using ES6 within the context of Angular 1.x -- while also keeping a mindset for the best practices of the future (i.e., Angular 2.0 and Web Components).
+
+...and because it's an awesome app, obviously. 
 
 
-This project does:
+## Core Build Stack
 
-- ES6 Syntax via 6to5 with source maps
-- ES6 Modules via SystemJS
-- Karma / Jasmine unit tests with coverage report
-- Lazy-loading modules via routes with AngularJS
-- Easy watch/browser-sync/lint/test/build setup via Gulp
-- LESS CSS Support with source maps and minification
-- AngularJS Template Compilation
-- AngularJS Annotatation
-- Bundle builds via SystemJS Builder
-- Cache Busting with SystemJS
-- Demonstrates on-demand theme loading
+  - Key Overarching Components
+    - ES6
+    - Angular
+    - JSPM
+    - Gulp
+    - Babel
+    
+  - Key Angular-specific Components
+    - Angular Material
+    - UI-Router
+    - Restangular
 
-This seed project demonstrates the [systemjs-route-bundler](https://github.com/Swimlane/systemjs-route-bundler) build tool.
 
-### Install & Run
-
-1. `npm install -g gulp jspm`
-2. `npm install`
-3. `gulp watch serve`
-4. Browse to `http://localhost:9000`
-
-### Gulp Tasks
-
-- `gulp test` to run karma tests
-- `gulp lint` to run jshint
-- `gulp release` to bundle, cache busting, and minify
-
-### Versions
-The project has been tested with the following environment:
-
-- node v0.12.0
-- npm v2.5.1
-- jspm v0.15.3
-
-### Tooling
-
-- [EditorConfig](http://editorconfig.org/)
-- [JSHint](http://jshint.com/install/)
-- [VS Task Launcher](https://visualstudiogallery.msdn.microsoft.com/8e1b4368-4afb-467a-bc13-9650572db708)
-
-### Best Practices
-
-- https://github.com/johnpapa/angularjs-styleguide
-- https://github.com/gocardless/angularjs-style-guide
-- http://sett.ociweb.com/sett/settApr2014.html
-
-### Research & Resources
-
-- https://github.com/angular/material-start/tree/es6
-- https://github.com/systemjs/systemjs
-- https://github.com/gocardless/es6-angularjs
-- http://glenmaddern.com/articles/javascript-in-2015
-- https://github.com/marcj/angular-es6-annotations
-- https://github.com/robianmcd/angular-next
-- https://github.com/ng-next/ng-next-example

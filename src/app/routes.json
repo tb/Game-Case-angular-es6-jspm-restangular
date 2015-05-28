@@ -1,15 +1,9 @@
 [
     {
-        "stateName": "root",
-        "urlPrefix": "/",
-        "type": "load",
-        "src": "app/states/root/root.module"
-    },
-    {
         "stateName": "login",
         "urlPrefix": "/login",
         "type": "load",
-        "src": "app/states/login/login"
+        "src": "app/states/login/login.module"
     },
     {
         "stateName": "dashboards",
@@ -28,5 +22,11 @@
         "urlPrefix": "/forms",
         "type": "load",
         "src": "app/states/forms/forms"
+    },
+    {
+        "stateName": "home",
+        "urlPrefix": "/home",
+        "type": "load",
+        "src": "app/states/home/home.module"
     }
 ]
