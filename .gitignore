@@ -5,3 +5,5 @@ dist
 .DS_STORE
 coverage
 jspm_packages
+
+docs/private
