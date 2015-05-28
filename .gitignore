@@ -6,4 +6,7 @@ dist
 coverage
 jspm_packages
 
+
+/* Shhhh */
 docs/private
+secrets

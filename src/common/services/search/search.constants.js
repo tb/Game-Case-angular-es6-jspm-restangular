@@ -3,8 +3,10 @@
  * during a module's declaration
  */
 
+import secrets from 'secrets/mashape-api.json!';
 
-var API_KEY = 'h6c6FKIkYxmshdRrM56IKlzBUBa4p1FscHUjsnxnIMlxI8GFGc';   //TODO: HIDE!
+
+var API_KEY = secrets.apiKey;
 var BASE_URL = 'https://metacritic-2.p.mashape.com/';
 
 var UPCOMING_RELEASES_PS4 = 'game-list/ps4/coming-soon?' +

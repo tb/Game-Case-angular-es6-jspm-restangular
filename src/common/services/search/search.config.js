@@ -1,4 +1,5 @@
 import angular from 'angular';
+import secrets from 'secrets/mashape-api.json!';
 
 
 /*@ngInject*/
