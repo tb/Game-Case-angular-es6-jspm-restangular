@@ -1,0 +1,27 @@
+.toolbar {
+
+    color: $font-color__primary-text--white-on-dark-background;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: $navbar__height;
+    background-color: $theme-color__primary--alt-light;
+    max-width: 100%;
+    width: 100%;
+    font-size: 2.0rem;
+    position: relative;
+
+
+    // TODO: Place these in toolbar-tools directive
+    .toolbar__tools {
+        display: flex;
+        justify-content: space-around;
+        flex: 1;
+        flex-direction: row;
+    }
+
+    a {
+        color: $font-color__primary-text--white-on-dark-background;
+        text-decoration: none;
+    }
+}

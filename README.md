@@ -22,7 +22,6 @@ I made this app to explore using ES6 within the context of Angular 1.x, to explo
     - Babel
     
   - Key Angular-specific Components
-    - Angular Material
     - UI-Router
     - Restangular
 
